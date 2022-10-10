@@ -69,3 +69,15 @@ Yes.We can create Dolphin class which shows fish behaviour. Initializing fish cl
 
 2. How do you avoid duplicating code or introducing unneeded overhead?
 Using Composition we can Solve this.
+
+C. Model animals that change their behaviour over time
+1. Can you model a butterfly?
+1. A butterfly can fly
+2. A butterfly does not make a sound
+-->Created Class Butterfly that implements Animal Interface
+
+2. Can you optimize your model to account for the metamorphosis from caterpillar to
+butterfly?
+1. A caterpillar cannot fly
+2. A caterpillar can walk (crawl)
+--> Created a Property which represents behaviour isCaterpiller. Just set property to true to false to show metamorphosis from caterpillar to butterfly.

@@ -13,7 +13,9 @@ public class Solution {
 	
 	public static void main(String[] args)
 	{
-		String newLine=System.lineSeparator();
+		String newLine=System.lineSeparator();// used to print Output in new lines
+		
+		
 		System.out.print("I am Bird"+ newLine );
 		System.lineSeparator();
 		Bird bird=new Bird();
@@ -83,6 +85,17 @@ public class Solution {
 		dolphin.swim();
 		System.out.print( newLine );
 		
+		System.out.print("I am Butterfly"+ newLine);
+		Butterfly butterfly=new Butterfly();
+		butterfly.fly();
+		butterfly.sing();
+		System.out.print( newLine );
+		
+		System.out.print("I am Caterpillar"+ newLine);
+		Butterfly caterpillar=new Butterfly(true);
+		caterpillar.fly();
+		caterpillar.walk();
+		System.out.print( newLine );
 		
 	}
 
