@@ -8,6 +8,14 @@ public class Solution {
 		bird.walk();
 		bird.fly();
 		bird.sing();
+		
+		Duck duck=new Duck();
+		duck.sing();
+		duck.swim();
+		
+		Chicken chicken=new Chicken();
+		chicken.sing();
+		chicken.fly();
 	}
 
 }

@@ -20,4 +20,11 @@ public class Bird implements Animal{
 		
 	}
 
+
+	@Override
+	public void swim() {
+		
+		
+	}
+
 }
