@@ -81,3 +81,32 @@ butterfly?
 1. A caterpillar cannot fly
 2. A caterpillar can walk (crawl)
 --> Created a Property which represents behaviour isCaterpiller. Just set property to true to false to show metamorphosis from caterpillar to butterfly.
+
+D. Counting animals
+Suppose you have an array of animals, e.g.
+
+Animal[] animals = new Animal[]{
+new Bird(),
+new Duck(),
+new Chicken(),
+new Rooster(),
+new Parrot(),
+new Fish(),
+new Shark(),
+new Clownfish(),
+new Dolhpin (),
+new Frog (),
+new Dog(),
+new Butterfly (),
+new Cat()
+};
+
+Note : The above instantiation may be different if you chose to set up your object model
+differently... (hopefully you did)
+1. Can you share the code to count:
+1. How many of these animals can fly?
+2. How many of these animals can walk?
+3. How many of these animals can sing?
+4. How many of these animals can swim?
+
+-->Added Code in Solution.java class to count the number of animals that can fly,swim,walk, and sing.

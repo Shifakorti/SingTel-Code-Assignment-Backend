@@ -29,10 +29,16 @@ public class Parrot extends Bird {
 		this.phone=phone;
 	}
 	
-	public void sing() {
+	public boolean sing() {
 		if(this.animal!=null)
-		   animal.sing();
+		{
+		   return animal.sing();
+		}
+		else if(this.phone!=null)
+		{
+			return phone.sing();
+		}
 		else
-			phone.sing();
+			return true;
 	}
 }

@@ -2,9 +2,9 @@ package com.assignment;
 
 public interface Animal {
 	
-	 void walk();
-	 void fly();
-	 void sing();
-	 void swim();
+	 boolean walk();
+	 boolean fly();
+	 boolean sing();
+	 boolean swim();
 
 }

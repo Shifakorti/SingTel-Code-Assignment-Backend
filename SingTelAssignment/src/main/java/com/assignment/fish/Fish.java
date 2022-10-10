@@ -6,26 +6,30 @@ public class Fish implements Animal{
 	
 
 	@Override
-	public void walk() {
+	public boolean walk() {
 		System.out.println("I cannot Walk");
+		return false;
 		
 	}
 
 	@Override
-	public void fly() {
+	public boolean fly() {
 		System.out.println("I cannot Fly");
+		return false;
 		
 	}
 
 	@Override
-	public void sing() {
+	public boolean sing() {
 		System.out.println("I cannot Sing");
+		return false;
 		
 	}
 
 	@Override
-	public void swim() {
+	public boolean swim() {
 		System.out.println("I can Swim");
+		return true;
 		
 	}
 	

@@ -23,35 +23,54 @@ public class Butterfly implements Animal {
 	
 
 	@Override
-	public void walk() {
+	public boolean walk() {
 		if(isCaterpillar)
+		{
 			System.out.println("I can Walk");
+		return true;
+		}
 		else
+		{
 			System.out.println("I cannot Walk");
+		return false;
+		}
 		
 	}
 
 	@Override
-	public void fly() {
+	public boolean fly() {
 		if(isCaterpillar)
+		{
 			System.out.println("I cannot Fly");
+			return false;
+		}
 		else
+		{
 			System.out.println("I can fly");
+			return true;
+		}
 		
 	}
 
 	@Override
-	public void sing() {
+	public boolean sing() {
 		if(isCaterpillar)
+		{
 			System.out.println("I can sing");
+			return true;
+		}
 		else
+		{
 			System.out.println("I cannot sing");
+			return false;
+		}
 		
 	}
 
 	@Override
-	public void swim() {
+	public boolean swim() {
 		System.out.println("I cannot swim");
+		return false;
 		
 	}
 

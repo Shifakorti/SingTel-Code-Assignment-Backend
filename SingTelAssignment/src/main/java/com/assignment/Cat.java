@@ -3,26 +3,30 @@ package com.assignment;
 public class Cat implements Animal {
 
 	@Override
-	public void walk() {
+	public boolean walk() {
 		System.out.println("I can Walk");
+		return true;
 		
 	}
 
 	@Override
-	public void fly() {
+	public boolean fly() {
 		System.out.println("I cannot fly");
+		return false;
 		
 	}
 
 	@Override
-	public void sing() {
+	public boolean sing() {
 		System.out.println("Me ow");
+		return true;
 		
 	}
 
 	@Override
-	public void swim() {
+	public boolean swim() {
 		System.out.println("I cannot swim");
+		return false;
 		
 	}
 

@@ -4,14 +4,16 @@ public class Duck extends Bird {
 	
 
 	@Override
-	public void sing() {
+	public boolean sing() {
 		System.out.println("Quack quack");
+		return true;
 		
 	}
 	
 	@Override
-	public void swim() {
-		System.out.println("I am swimming");
+	public boolean swim() {
+		System.out.println("I can swim");
+		return true;
 		
 	}
 

@@ -5,27 +5,31 @@ import com.assignment.Animal;
 public class Bird implements Animal{
 
 	@Override
-	public void walk() {
-		System.out.println("I am walking");
+	public boolean walk() {
+		System.out.println("I can Walk");
+		return true;
 		
 	}
 	
 	@Override
-	public void fly() {
-		System.out.println("I am flying");
+	public boolean fly() {
+		System.out.println("I can fly");
+		return true;
 		
 	}
 	
 	@Override
-	public void sing() {
-		System.out.println("I am singing");
+	public boolean sing() {
+		System.out.println("I can sing");
+		return true;
 		
 	}
 
 
 	@Override
-	public void swim() {
-		
+	public boolean swim() {
+		System.out.println("I cannot swim");
+		return false;
 		
 	}
 

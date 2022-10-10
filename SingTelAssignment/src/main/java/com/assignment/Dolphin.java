@@ -20,26 +20,38 @@ public class Dolphin implements Animal {
 	}
 
 	@Override
-	public void walk() {
-		fish.walk();
+	public boolean walk() {
+		if (fish==null)
+			return false;
+		else
+		return fish.walk();
 		
 	}
 
 	@Override
-	public void fly() {
-		fish.fly();
+	public boolean fly() {
+		if (fish==null)
+			return false;
+		else
+		return fish.fly();
 		
 	}
 
 	@Override
-	public void sing() {
-		fish.sing();
+	public boolean sing() {
+		if (fish==null)
+			return false;
+		else
+		return fish.sing();
 		
 	}
 
 	@Override
-	public void swim() {
-		fish.swim();
+	public boolean swim() {
+		if (fish==null)
+			return true;
+		else
+		return fish.swim();
 		
 	}
 
