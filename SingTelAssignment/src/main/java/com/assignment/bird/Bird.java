@@ -1,4 +1,6 @@
-package com.assignment;
+package com.assignment.bird;
+
+import com.assignment.Animal;
 
 public class Bird implements Animal{
 

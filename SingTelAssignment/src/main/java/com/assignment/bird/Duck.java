@@ -1,4 +1,4 @@
-package com.assignment;
+package com.assignment.bird;
 
 public class Duck extends Bird {
 	

@@ -1,4 +1,4 @@
-package com.assignment;
+package com.assignment.bird;
 
 public class Rooster extends Chicken {
 	@Override

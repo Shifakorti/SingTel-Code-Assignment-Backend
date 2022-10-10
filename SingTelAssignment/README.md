@@ -37,7 +37,35 @@ the rooster.
 near a Duck? Or near a phone that rings frequently?
 
 --> Created Parrot.class that extends Bird.It inherit all bird class methods. 
--->While we create Parrot object we can pass parameter of animal type that it is living with.This way we can create parrot instance that Parrot is living to get the desired behaviour(Singing).Even if the parrot is living with Ducks or any other animal.
+-->While we create Parrot object we can pass parameter of animal type that it is living with.This way we can create parrot instance that Parrot is living to get the desired behaviour (Singing).Even if the parrot is living with Ducks or any other animal.
 -->If we initially did not create instance of parrot with living other animal. Then we can do it later by livingWith(Animal animal) method. 
 -->It also uses delegation with the method sing() to forward call.
--->To create parrot instance with types other than animal, we can acheive it by constructor overloading or method overloading.
+-->To create parrot instance with types other than animal, we can achieve it by constructor overloading or method overloading.
+
+FIFTH COMMIT
+
+B. Model fish as well as other swimming animals
+1. In addition to the birds, can you model a fish?
+1. Fishes don’t sing
+2. Fishes don’t walk
+3. Fishes can swim
+
+--> Created Fish class which implements Animal interface. This way it inherits all methods of Animal class.
+--> Changed the body of sing(),walk(),swim() method's.
+
+2. Can you specialize the fish as a Shark and as a Clownfish?
+1. Sharks are large and grey
+2. Clownfish are small and colourful (orange)
+3. Clownfish make jokes
+4. Sharks eat other fish
+
+--> Created Shark and Clownfish classes which extends Fish class.
+-->Created properties size and color in shark and clownfish class.
+-->created makeJokes() method in clownfish class and eatOtherFish() method in shark class.
+
+3. Dolphins are not exactly fish, yet, they are good swimmers
+1. Can you model a dolphin that swims without inheriting from a fish class?
+Yes.We can create Dolphin class which shows fish behaviour. Initializing fish class we can use swim method without inheritance.
+
+2. How do you avoid duplicating code or introducing unneeded overhead?
+Using Composition we can Solve this.

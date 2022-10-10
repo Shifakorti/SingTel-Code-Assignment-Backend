@@ -1,5 +1,7 @@
 package com.assignment;
 
+import com.assignment.bird.Chicken;
+
 public class RoosterDelegation {
 	
 	Chicken chickenDelegation=new Chicken();

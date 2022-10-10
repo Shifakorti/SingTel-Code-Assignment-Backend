@@ -6,10 +6,10 @@ import org.junit.jupiter.api.Test;
 
 import com.assignment.Cat;
 import com.assignment.Dog;
-import com.assignment.Duck;
-import com.assignment.Parrot;
 import com.assignment.Phone;
-import com.assignment.Rooster;
+import com.assignment.bird.Duck;
+import com.assignment.bird.Parrot;
+import com.assignment.bird.Rooster;
 
 class ParrotTest {
 

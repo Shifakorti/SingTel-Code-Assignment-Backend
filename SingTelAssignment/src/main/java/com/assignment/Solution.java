@@ -1,5 +1,14 @@
 package com.assignment;
 
+import com.assignment.bird.Bird;
+import com.assignment.bird.Chicken;
+import com.assignment.bird.Duck;
+import com.assignment.bird.Parrot;
+import com.assignment.bird.Rooster;
+import com.assignment.fish.ClownFish;
+import com.assignment.fish.Fish;
+import com.assignment.fish.Shark;
+
 public class Solution {
 	
 	public static void main(String[] args)
@@ -56,6 +65,24 @@ public class Solution {
 		Parrot parrotLivingWithDuck=new Parrot(new Duck());
 		parrotLivingWithDuck.sing();
 		System.out.print( newLine );
+
+
+		System.out.print("I am ClownFish"+ newLine);
+		ClownFish clownFish=new ClownFish();
+		clownFish.makeJokes();
+		System.out.print( newLine );
+		
+		
+		System.out.print("I am Shark"+ newLine);
+		Shark shark=new Shark();
+		shark.eatOtherFish();
+		System.out.print( newLine );
+		
+		System.out.print("I am Dolphin"+ newLine);
+		Dolphin dolphin=new Dolphin(new Fish());
+		dolphin.swim();
+		System.out.print( newLine );
+		
 		
 	}
 

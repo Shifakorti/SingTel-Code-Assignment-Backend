@@ -1,4 +1,8 @@
-package com.assignment;
+package com.assignment.bird;
+
+import com.assignment.Animal;
+
+import com.assignment.Phone;
 
 public class Parrot extends Bird {
 	

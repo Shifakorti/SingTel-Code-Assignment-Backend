@@ -2,7 +2,7 @@ package com.assignment.test;
 
 import org.junit.jupiter.api.Test;
 
-import com.assignment.Chicken;
+import com.assignment.bird.Chicken;
 
 class ChickenTest {
 
