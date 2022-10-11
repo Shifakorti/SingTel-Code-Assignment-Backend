@@ -70,6 +70,8 @@ Yes.We can create Dolphin class which shows fish behaviour. Initializing fish cl
 2. How do you avoid duplicating code or introducing unneeded overhead?
 Using Composition we can Solve this.
 
+SIXTH COMMIT
+
 C. Model animals that change their behaviour over time
 1. Can you model a butterfly?
 1. A butterfly can fly
@@ -82,6 +84,7 @@ butterfly?
 2. A caterpillar can walk (crawl)
 --> Created a Property which represents behaviour isCaterpiller. Just set property to true to false to show metamorphosis from caterpillar to butterfly.
 
+SEVENTH COMMIT
 D. Counting animals
 Suppose you have an array of animals, e.g.
 
@@ -110,3 +113,12 @@ differently... (hopefully you did)
 4. How many of these animals can swim?
 
 -->Added Code in Solution.java class to count the number of animals that can fly,swim,walk, and sing.
+
+EIGHT COMMIT
+
+1. Can you add a second language (if you kno w a language other than English) Use the
+rooster as a PoC for demonstrating this. For example, this is how the Rooster sounds
+differently depending on language. Please add the rooster sound in your native tongue.
+--> Created HashMap Collection inside Rooster.class with key as Language and value as sound it makes. This Map variable is kept static such that it is created only once inside after and can be called with class reference.
+--> Overloaded the sing method to accept the Language String and print the corresponding sound it makes
+-->Code is written in Solution.java to call different sounds of Rooster.

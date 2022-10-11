@@ -134,6 +134,14 @@ public class Solution {
 		   System.out.println("Number of Animals that can walk: " + countWalk);
 		   System.out.println("Number of Animals that can sing: " + countSing);
 		   System.out.println("Number of Animals that can swim: " + countSwim);
+		   
+		   System.out.print("I am Rooster, I speak different languages"+newLine);
+			Rooster rooster1=new Rooster();
+			for(String language: Rooster.myLanguages.keySet())
+			{
+				rooster1.sing(language);
+			}
+		   
 		}
 		   
 		
